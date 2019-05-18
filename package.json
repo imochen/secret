@@ -1,0 +1,30 @@
+{
+  "name": "@mochen/secret",
+  "version": "1.0.0",
+  "description": "a command for generate a secret key",
+  "main": "index.js",
+  "bin": {
+    "secret": "./bin/secret"
+  },
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imochen/secret.git"
+  },
+  "keywords": [
+    "secret key",
+    "random str",
+    "unique id"
+  ],
+  "author": "mochen <mochen.china@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imochen/secret/issues"
+  },
+  "homepage": "https://github.com/imochen/secret#readme",
+  "dependencies": {
+    "boxen": "^3.2.0"
+  }
+}
