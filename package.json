@@ -1,6 +1,6 @@
 {
   "name": "@mochen/secret",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a command for generate a secret key",
   "main": "index.js",
   "bin": {
