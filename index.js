@@ -1,5 +1,5 @@
-const crypto = require('crypto');
+const nanoid = require('nanoid');
 
-module.exports = (len = 24) => {
-  return crypto.randomBytes(100).toString('base64').replace(/[+/]/g, '').substr(0, len);
+module.exports = (len = 18) => {
+  return nanoid(len);
 }

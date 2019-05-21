@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/imochen/secret#readme",
   "dependencies": {
-    "boxen": "^3.2.0"
+    "boxen": "^3.2.0",
+    "nanoid": "^2.0.2"
   }
 }
